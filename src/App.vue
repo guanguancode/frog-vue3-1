@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Button>hi</Button>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { Button } from "little-frog-ui";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Button,
+  },
+};
 </script>
 
 <style>
